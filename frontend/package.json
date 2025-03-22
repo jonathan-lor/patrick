@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.24.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
     "@tailwindcss/vite": "^4.0.15",
+    "gemini-ai": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.4.0",
