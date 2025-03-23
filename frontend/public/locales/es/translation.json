@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Dive AI"
+    "title": "Patrick"
   },
   "chat": {
     "placeholder": "Escribe un mensaje...",
@@ -23,7 +23,7 @@
     "modelSettings": "Configuración del Modelo"
   },
   "welcome": {
-    "title": "Bienvenido a Dive AI",
+    "title": "Bienvenido a Patrick",
     "subtitle": "Inicia tu conversación con IA",
     "startChat": "Iniciar Chat"
   },

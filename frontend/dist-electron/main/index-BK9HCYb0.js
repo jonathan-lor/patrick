@@ -22319,7 +22319,7 @@ async function _initChatModelHelper(model, modelProvider, params = {}) {
           // this will never be the case in CI.
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore - Can not install as a proper dependency due to circular dependency
-          "./fireworks-T2UKpzfZ.js"
+          "./fireworks-DhE-KI-N.js"
         );
         return new ChatFireworks({ model, ...passedParams });
       }
@@ -22330,7 +22330,7 @@ async function _initChatModelHelper(model, modelProvider, params = {}) {
           // this will never be the case in CI.
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore - Can not install as a proper dependency due to circular dependency
-          "./togetherai-DamjX_wH.js"
+          "./togetherai-ATqQdnmP.js"
         );
         return new ChatTogetherAI({ model, ...passedParams });
       }
@@ -22784,7 +22784,7 @@ async function handleProcessQuery(toolToClientMap, availableTools, model, input,
       } else {
         const content = [];
         if (input.text) {
-          content.push({ type: "text", text: input.text });
+          content.push({ type: "text", text: "" + input.text });
         }
         if (input.images && input.images.length > 0) {
           for (const imagePath of input.images) {
@@ -31692,7 +31692,7 @@ class MultipartBody {
 }
 let fileFromPathWarned = false;
 async function fileFromPath(path2, ...args) {
-  const { fileFromPath: _fileFromPath } = await import("./fileFromPath-yy10gBGI.js");
+  const { fileFromPath: _fileFromPath } = await import("./fileFromPath-C0rI9SzK.js");
   if (!fileFromPathWarned) {
     console.warn(`fileFromPath is deprecated; use fs.createReadStream(${JSON.stringify(path2)}) instead`);
     fileFromPathWarned = true;
@@ -36371,7 +36371,7 @@ async function onReady() {
 }
 async function createWindow() {
   win = new BrowserWindow({
-    title: "Dive AI",
+    title: "Patrick",
     icon: path$1.join(process.env.VITE_PUBLIC, "favicon.ico"),
     webPreferences: {
       preload
@@ -36487,4 +36487,4 @@ export {
   getEnvironmentVariable as g,
   isFile as i
 };
-//# sourceMappingURL=index-DOaHP514.js.map
+//# sourceMappingURL=index-BK9HCYb0.js.map

@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Logan"
+    "title": "Patrick"
   },
   "chat": {
     "placeholder": "Type a message...",
@@ -30,7 +30,7 @@
     "toolCalls": "🛠 Tool Calls Result from {{name}}"
   },
   "welcome": {
-    "title": "Welcome to Logan",
+    "title": "Welcome to Patrick",
     "subtitle": "Start your AI conversation",
     "startChat": "Start Chat"
   },
@@ -124,7 +124,7 @@
     "theme": "Display Mode",
     "defaultInstructions": "speak in English",
     "autoDownload": "Auto Download Update",
-    "autoLaunch": "Run Logan on system startup",
+    "autoLaunch": "Run Patrick on system startup",
     "minimalToTray": "Minimize to System Tray"
   },
   "toast": {

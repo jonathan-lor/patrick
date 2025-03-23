@@ -3,7 +3,7 @@ import "node:module";
 import "node:url";
 import "node:path";
 import "node:os";
-import { M, R, V } from "./index-0sTdC-T5.js";
+import { M, R, V } from "./index-BK9HCYb0.js";
 export {
   M as MAIN_DIST,
   R as RENDERER_DIST,

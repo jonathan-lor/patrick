@@ -6,10 +6,13 @@ import CodeModal from './CodeModal'
 import { useAtom, useSetAtom } from 'jotai'
 import { codeStreamingAtom } from '../../atoms/codeStreaming'
 import useHotkeyEvent from "../../hooks/useHotkeyEvent"
+import { useSidebarLayer } from "../../hooks/useLayer"
 import { showToastAtom } from "../../atoms/toastState"
 import { useTranslation } from "react-i18next"
 import { currentChatIdAtom, isChatStreamingAtom, lastMessageAtom } from "../../atoms/chatState"
 import { safeBase64Encode } from "../../util"
+import { closeAllOverlaysAtom, openOverlayAtom, OverlayType } from "../../atoms/layerState"
+import { sidebarVisibleAtom } from "../../atoms/sidebarState"
 
 interface ToolCall {
   name: string
@@ -40,6 +43,19 @@ const ChatWindow = () => {
   const toolCallResults = useRef<string>("")
   const toolResultCount = useRef(0)
   const toolResultTotal = useRef(0)
+  const _openOverlay = useSetAtom(openOverlayAtom)
+  const [isVisible, setVisible] = useSidebarLayer(sidebarVisibleAtom)
+
+
+	// tool button
+	const handleTools = () => {
+		openOverlay("Tools")
+	}
+
+const openOverlay = useCallback((overlay: OverlayType) => {
+    _openOverlay(overlay)
+    setVisible(false)
+  }, [_openOverlay, setVisible])
 
   const loadChat = useCallback(async (id: string) => {
     try {
@@ -49,7 +65,7 @@ const ChatWindow = () => {
 
       if (data.success) {
         currentChatId.current = id
-        document.title = `${data.data.chat.title} - Dive AI`
+        document.title = `${data.data.chat.title} - Patrick`
 
         const convertedMessages = data.data.messages.map((msg: any) => ({
           id: msg.messageId || msg.id || String(currentId.current++),
@@ -313,7 +329,7 @@ const ChatWindow = () => {
                 break
 
               case "chat_info":
-                document.title = `${data.content.title} - Dive AI`
+                document.title = `${data.content.title} - Patrick`
                 currentChatId.current = data.content.id
                 navigate(`/chat/${data.content.id}`, { replace: true })
                 break
@@ -402,6 +418,7 @@ const ChatWindow = () => {
   }, [updateStreamingCode, chatId])
 
   return (
+
     <div className="chat-page">
       <div className="chat-container">
         <div className="chat-window">
@@ -419,7 +436,9 @@ const ChatWindow = () => {
         </div>
       </div>
       <CodeModal />
+			
     </div>
+
   )
 }
 

@@ -240,22 +240,7 @@ const Welcome = () => {
         )}
 
         <div className="suggestions">
-          {histories.length > 0 && histories.slice(0, 3).map(history => (
-            <div
-              key={history.id}
-              className="suggestion-item"
-              onClick={() => navigate(`/chat/${history.id}`)}
-            >
-              <div className="content-wrapper">
-                <strong>{history.title || t("chat.untitledChat")}</strong>
-              </div>
-              <div className="bottom-row">
-                <p>{new Date(history.createdAt).toLocaleString()}</p>
-                <span className="arrow">→</span>
-              </div>
-            </div>
-          ))}
-        </div>
+				</div>
       </div>
     </div>
   )

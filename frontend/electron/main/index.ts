@@ -72,7 +72,7 @@ async function onReady() {
 
 async function createWindow() {
   win = new BrowserWindow({
-    title: "Dive AI",
+    title: "Patrick",
     icon: path.join(process.env.VITE_PUBLIC, "favicon.ico"),
     webPreferences: {
       preload,

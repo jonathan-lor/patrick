@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { g as getEnvironmentVariable } from "./index-DOaHP514.js";
+import { g as getEnvironmentVariable } from "./index-BK9HCYb0.js";
 class ChatFireworks extends ChatOpenAI {
   static lc_name() {
     return "ChatFireworks";
@@ -81,4 +81,4 @@ class ChatFireworks extends ChatOpenAI {
 export {
   ChatFireworks
 };
-//# sourceMappingURL=fireworks-T2UKpzfZ.js.map
+//# sourceMappingURL=fireworks-DhE-KI-N.js.map
