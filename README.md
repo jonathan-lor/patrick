@@ -9,7 +9,7 @@ The MCP servers can all be launched from the respective index.js files in their 
 
 You can also use these servers with any compatible MCP client (Claude Desktop App seems to be the best established app for this)
 
-Also auth for the gmail MCP is a little funny. Half of that code isnt actually used in our working version and are remnants from hackathon development. You have to run the get-token at the root of gmcp directory to generate refresh token and save it in .env along with your client id and secret from google cloud gmail api. Also index.js for gmail MCP only needs to be launched from root of that gmcp folder.
+Also auth for the gmail MCP is a little funny. Half of that code isnt actually used in our working version and are remnants from hackathon development. You have to run the get-token at the root of gmcp directory to generate refresh token and save it in .env along with your client id and secret from google cloud gmail api. Also index.js for gmail MCP only needs to be launched from root of that gmcp folder. Right now the config file runs a shell script and cd's to the directory before starting the server. It's pretty jank
 
 Just email me (jonathan) or something if you want setup help lolol
 
