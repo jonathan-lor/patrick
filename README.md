@@ -1,5 +1,5 @@
 # tidalhack-25
-PATRICK!!!
+PATRICK.
 
 # To anyone wanting to clone this
 
