@@ -84,7 +84,7 @@ export async function handleProcessQuery(
 
         // Add text content if exists
         if (input.text) {
-          content.push({ type: "text", text: input.text });
+          content.push({ type: "text", text: "" + input.text });
         }
 
         // Add image content if exists

@@ -37,7 +37,7 @@ const Header = ({ showHelpButton = false, showModelSelect = false }: Props) => {
             {showModelSelect && <ModelSelect />}
           </div>
         </div>
-        {showHelpButton && (
+        {false && (
           <div className="right-side">
             <button
               className="help-btn"
