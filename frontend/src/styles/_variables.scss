@@ -108,11 +108,11 @@ $shadow-dark: 0 2px 6px rgba(0, 0, 0, 0.2);
 
 [data-theme='dark'],
 :root:has([data-theme='dark']) {
-  --bg-extremeweak: #732f2f;
-  --bg-ultraweak: #732F2F;
-  --bg-weak: #2a273f;
+  --bg-extremeweak: #393552;
+  --bg-ultraweak: #393552;
+  --bg-weak: #393552;
   --bg: #232136;
-  --bg-medium: #732f2f;
+  --bg-medium: #393552;
   --bg-dark-ultrastrong: #0D0F12;
   --bg-hover-dark-ultrastrong: #1e1e1e;
   --bg-op-dark-extremeweak: rgba(255, 255, 255, 0.05);
