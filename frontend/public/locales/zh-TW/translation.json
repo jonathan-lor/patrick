@@ -1,0 +1,153 @@
+{
+  "header": {
+    "title": "Dive AI"
+  },
+  "chat": {
+    "placeholder": "傳送任何訊息...",
+    "newChat": "新對話",
+    "newChatTooltip": "開始新的對話",
+    "history": "歷史紀錄",
+    "copyCode": "複製",
+    "previewCode": "點擊預覽",
+    "uploadFile": "上傳檔案",
+    "send": "送出",
+    "untitledChat": "未命名對話",
+    "deleteChat": "刪除對話",
+    "deleteSuccess": "對話已刪除",
+    "deleteFailed": "刪除失敗",
+    "confirmDelete": "確認刪除",
+    "tools": "工具",
+    "abort": "停止生成回應",
+    "retry": "重試",
+    "noModelAlert": "無可用模型",
+    "modelSettings": "模型設定",
+    "copy": "複製",
+    "copied": "已複製",
+    "edit": "編輯",
+    "editDescription": "編輯此訊息將會重新生成一個新的回應",
+    "cancel": "取消",
+    "save": "儲存",
+    "toolCalls": "🛠 呼叫 {{name}} 工具結果"
+  },
+  "welcome": {
+    "title": "歡迎使用 Dive AI",
+    "subtitle": "開始你的 AI 對話",
+    "startChat": "開始對話"
+  },
+  "setup": {
+    "title": "初始設定",
+    "subtitle": "請設定模型相關參數",
+    "required": "此欄位為必填",
+    "submit": "儲存設定",
+    "provider": "模型提供者",
+    "verify": "驗證模型",
+    "verifySuccess": "模型驗證成功",
+    "verifySuccessNoTool": "模型驗證成功，但不支援MCP Tool Calls",
+    "verifyFailed": "模型驗證失敗",
+    "verifyError": "驗證過程發生錯誤",
+    "saveSuccess": "設定已儲存",
+    "saveFailed": "儲存失敗",
+    "back": "返回",
+    "parameters": "參數設定",
+    "topPDescription": "Top P 參數是一種用來控制 GPT 模型生成文本的多樣性的參數。當 GPT 模型生成文本時，它會對每個生成的字或子字在詞彙表中的概率分佈進行計算。Top P 參數控制了有多少最高概率的字或子字被選擇進入生成文本。例如，如果 top_p=0.9，那麼閾值就設定為概率在最高概率的字或子字中排名第 90 的那個。",
+    "temperatureDescription": "Temperature 參數是一種用來控制GPT 模型生成文本的“創造性”或隨機性的參數。一個較高的Temperature (例如 0.7) 會導致更多元和創新的輸出，而一個較低的 Temperature (例如 0.2) 會使輸出更確定和集中。"
+  },
+  "sidebar": {
+    "tools": "工具管理(MCP)",
+    "settings": "模型設定",
+    "update": "新版本升級",
+    "models": "模型設定",
+    "system": "系統設定"
+  },
+  "tools": {
+    "title": "工具管理(MCP)",
+    "subtitle": "管理 MCP Server 的工具與設定",
+    "editConfig": "編輯設定",
+    "configTitle": "MCP Server 設定",
+    "save": "儲存",
+    "cancel": "取消",
+    "saveSuccess": "設定已儲存",
+    "saveFailed": "儲存失敗",
+    "openConfigFolder": "開啟設定資料夾",
+    "addServer": "新增 MCP Server",
+    "addServerTitle": "新增 MCP Server",
+    "addServerSubtitle": "請直接貼上 MCP Server Json",
+    "fetchFailed": "載入工具列表失敗",
+    "configFetchFailed": "載入設定失敗",
+    "invalidJson": "無效的 JSON 格式",
+    "updateFailed": "{{serverName}} 啟動失敗：{{error}}"
+  },
+  "modelConfig": {
+    "title": "模型設定",
+    "customInstructions": "自訂指令",
+    "customInstructionsPlaceholder": "輸入自訂的模型指令...",
+    "customInstructionsDescription": "這些指令會被添加到每個請求的系統提示中。",
+    "saveInstructions": "儲存指令",
+    "customRulesSaved": "自訂指令已儲存",
+    "customRulesFailed": "儲存自訂指令失敗",
+    "modelDescription": "要使用的模型名稱",
+    "modelDescriptionHint": "要使用的模型名稱（請先輸入 API Key 以查看可用的模型）"
+  },
+  "common": {
+    "close": "關閉",
+    "confirm": "確認",
+    "cancel": "取消"
+  },
+  "models": {
+    "title": "模型設定",
+    "parameters": "參數設定",
+    "instructionsSetting": "提示詞設定",
+    "listTitle": "服務提供者配置",
+    "deleteTitle": "確定刪除 {{count}} 筆 Provider Authentication？",
+    "deleteDescription": "Authentication一經刪除即無法復原。",
+    "deleteToast": "已刪除 {{count}} 筆 Provider Authentication",
+    "deleteFailed": "刪除 Provider Authentication 失敗",
+    "verifying": "驗證 API Key 與模型中...",
+    "verifyingAbort": "驗證中斷，請稍後再試",
+    "apiKeyError": "API Key 無效，請檢查您的 API Key 並重新輸入。",
+    "closeAllTitle": "確定關閉？",
+    "closeAllDescription": "關閉後無可用模型，無法進行對話",
+    "deleteAllTitle": "確定刪除？",
+    "deleteAllDescription": "刪除後無可用模型，無法進行對話",
+    "noModelAlertTitle": "未啟用任何Models！",
+    "noModelAlertDescription": "無可用模型，無法進行對話",
+    "noModelAlertOption": "無可用模型",
+    "modelSaved": "已儲存Models",
+    "modelSaveFailed": "Models儲存失敗",
+    "parameterSaved": "已儲存參數",
+    "parameterSaveFailed": "參數儲存失敗",
+    "unToolCallsSupport": "不支援MCP tool Calls"
+  },
+  "system": {
+    "title": "系統設定",
+    "language": "系統語言",
+    "theme": "顯示模式",
+    "defaultInstructions": "以繁體中文回應",
+    "autoDownload": "自動下載更新",
+    "autoLaunch": "開機自動啟動Dive AI",
+    "minimalToTray": "關閉按鈕會將Dive AI最小化到背景"
+  },
+  "toast": {
+    "copiedToClipboard": "已複製到剪貼簿"
+  },
+  "keymap": {
+    "title": "鍵盤快捷鍵",
+    "events": {
+      "chat-input_submit": "提交輸入訊息",
+      "chat-input_upload-file": "上傳檔案",
+      "chat-input_focus": "輸入框出現游標直接輸入內容",
+      "chat-input_paste-last-message": "貼上最後一則的回應文字",
+      "chat-message_copy-last": "複製最後一則回應",
+      "chat_delete": "刪除對話",
+      "global_new-chat": "開始新對話",
+      "global_toggle-sidebar": "顯示/隱藏側邊欄",
+      "global_close-layer": "關閉視窗",
+      "global_toggle-keymap-modal": "顯示/隱藏快捷鍵說明"
+    }
+  },
+  "update": {
+    "downloading": "下載中",
+    "readyToInstall": "下載完成",
+    "clickToInstall": "點擊安裝更新"
+  }
+}

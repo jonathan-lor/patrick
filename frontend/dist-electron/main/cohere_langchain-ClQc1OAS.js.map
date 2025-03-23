@@ -1,0 +1,1 @@
+{"version":3,"file":"cohere_langchain-ClQc1OAS.js","sources":["../../__vite-optional-peer-dep:@langchain/cohere:langchain"],"sourcesContent":["throw new Error(`Could not resolve \"@langchain/cohere\" imported by \"langchain\". Is it installed?`)"],"names":[],"mappings":"AAAA,MAAM,IAAI,MAAM,iFAAiF;"}

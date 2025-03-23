@@ -1,0 +1,138 @@
+{
+  "header": {
+    "title": "Dive AI"
+  },
+  "chat": {
+    "placeholder": "Escribe un mensaje...",
+    "newChat": "Nuevo Chat",
+    "newChatTooltip": "Iniciar un nuevo chat",
+    "history": "Historial",
+    "copyCode": "Copiar",
+    "previewCode": "Haz clic para ver el código",
+    "uploadFile": "Subir archivo",
+    "send": "Enviar",
+    "untitledChat": "Chat sin título",
+    "deleteChat": "Eliminar Chat",
+    "deleteSuccess": "Chat eliminado",
+    "deleteFailed": "Error al eliminar",
+    "confirmDelete": "Confirmar Eliminación",
+    "tools": "Herramientas",
+    "abort": "Detener generación de respuesta",
+    "retry": "Reintentar",
+    "noModelAlert": "No hay modelos disponibles",
+    "modelSettings": "Configuración del Modelo"
+  },
+  "welcome": {
+    "title": "Bienvenido a Dive AI",
+    "subtitle": "Inicia tu conversación con IA",
+    "startChat": "Iniciar Chat"
+  },
+  "setup": {
+    "title": "Configuración Inicial",
+    "subtitle": "Por favor configura los parámetros del modelo",
+    "required": "Este campo es obligatorio",
+    "submit": "Guardar Configuración",
+    "provider": "Proveedor del Modelo",
+    "verify": "Verificar Modelo",
+    "verifySuccess": "Verificación del modelo exitosa",
+    "verifySuccessNoTool": "Verificación exitosa, pero el modelo no admite llamadas de herramientas MCP",
+    "verifyFailed": "Verificación del modelo fallida",
+    "verifyError": "Error durante la verificación",
+    "saveSuccess": "Configuración guardada correctamente",
+    "saveFailed": "Error al guardar configuración",
+    "back": "Volver",
+    "parameters": "Parámetros",
+    "topPDescription": "Top P es un parámetro que controla la diversidad del texto generado por el modelo GPT. Cuando se genera texto, el modelo calcula las distribuciones de probabilidad para cada palabra o token generado en el vocabulario. Top P controla cuántos de los tokens con las probabilidades más altas se seleccionan para la generación de texto. Por ejemplo, si top_p=0.9, el umbral se establece para incluir tokens que suman 90% de la masa de probabilidad.",
+    "temperatureDescription": "La temperatura es un parámetro que controla la 'creatividad' o aleatoriedad del texto generado por el modelo GPT. Una temperatura más alta (ejemplo: 0.7) lleva a salidas más diversas e innovadoras, mientras que una temperatura más baja (ejemplo: 0.2) hace que la salida sea más determinista y enfocada."
+  },
+  "sidebar": {
+    "tools": "Gestión de Herramientas (MCP)",
+    "settings": "Configuración del Modelo",
+    "update": "Actualización disponible",
+    "models": "Configuración del Modelo",
+    "system": "Configuración del Sistema"
+  },
+  "tools": {
+    "title": "Gestión de Herramientas (MCP)",
+    "subtitle": "Herramientas y configuración del servidor MCP",
+    "editConfig": "Editar Configuración",
+    "configTitle": "Configuración del Servidor MCP",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "saveSuccess": "Configuración guardada correctamente",
+    "saveFailed": "Error al guardar configuración",
+    "openConfigFolder": "Abrir Carpeta de Configuración",
+    "addServer": "Agregar Servidor MCP",
+    "addServerTitle": "Agregar Servidor MCP",
+    "addServerSubtitle": "Por favor, pega el JSON del servidor MCP directamente",
+    "fetchFailed": "Error al cargar las herramientas",
+    "configFetchFailed": "Error al cargar la configuración",
+    "invalidJson": "Formato JSON inválido",
+    "updateFailed": "{{serverName}} no pudo cargarse: {{error}}"
+  },
+  "modelConfig": {
+    "title": "Configuración del Modelo",
+    "customInstructions": "Instrucciones Personalizadas",
+    "customInstructionsPlaceholder": "Ingresa instrucciones personalizadas para el modelo...",
+    "customInstructionsDescription": "Estas instrucciones se agregan al final del prompt del sistema enviado con cada solicitud.",
+    "saveInstructions": "Guardar Instrucciones",
+    "customRulesSaved": "Instrucciones personalizadas guardadas",
+    "customRulesFailed": "Error al guardar instrucciones personalizadas",
+    "modelDescription": "Nombre del modelo a usar",
+    "modelDescriptionHint": "Nombre del modelo a usar (Por favor ingresa la clave API primero para ver los modelos disponibles)"
+  },
+  "common": {
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "models": {
+    "title": "Configuración del Modelo",
+    "parameters": "Configuración de Parámetros",
+    "instructionsSetting": "Configuración del Prompt",
+    "listTitle": "Configuración del Proveedor",
+    "deleteTitle": "Confirmar eliminación de {{count}} autenticación(es) del proveedor?",
+    "deleteDescription": "La autenticación no se puede recuperar una vez eliminada.",
+    "deleteToast": "Eliminado {{count}} autenticación del proveedor",
+    "deleteFailed": "Error al eliminar autenticación del proveedor",
+    "verifying": "Verificando clave & modelo ...",
+    "verifyingAbort": "Verificación interrumpida, por favor inténtalo de nuevo más tarde",
+    "apiKeyError": "La clave API es inválida, por favor revisa tu clave API e inténtalo de nuevo.",
+    "closeAllTitle": "¿Confirmar cierre?",
+    "closeAllDescription": "Cerrar inhabilitará todos los modelos, y no podrás chatear.",
+    "deleteAllTitle": "¿Confirmar eliminación?",
+    "deleteAllDescription": "Eliminar inhabilitará todos los modelos, y no podrás chatear.",
+    "noModelAlertTitle": "¡No hay modelos habilitados!",
+    "noModelAlertDescription": "No hay modelos disponibles, no podrás chatear.",
+    "noModelAlertOption": "No hay modelos disponibles",
+    "modelSaved": "Modelos guardados",
+    "modelSaveFailed": "Error al guardar modelos",
+    "parameterSaved": "Parámetros guardados",
+    "parameterSaveFailed": "Error al guardar parámetros",
+    "unToolCallsSupport": "No admite llamadas de herramientas MCP"
+  },
+  "system": {
+    "title": "Configuración del Sistema",
+    "language": "Idioma del Sistema",
+    "theme": "Modo de visualización",
+    "defaultInstructions": "hablar en inglés"
+  },
+  "toast": {
+    "copiedToClipboard": "Copiado al portapapeles"
+  },
+  "keymap": {
+    "title": "Atajos de Teclado",
+    "events": {
+      "chat-input_submit": "Enviar Mensaje",
+      "chat-input_upload-file": "Subir Archivo",
+      "chat-input_focus": "Enfocar Entrada",
+      "chat-input_paste-last-message": "Pegar Último Mensaje",
+      "chat-message_copy-last": "Copiar Última Respuesta",
+      "chat_delete": "Eliminar Chat",
+      "global_new-chat": "Nuevo Chat",
+      "global_toggle-sidebar": "Alternar Barra Lateral",
+      "global_close-layer": "Cerrar Ventana",
+      "global_toggle-keymap-modal": "Alternar Ayuda de Atajos de Teclado"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"aws_langchain-Dug3u4-w.js","sources":["../../__vite-optional-peer-dep:@langchain/aws:langchain"],"sourcesContent":["throw new Error(`Could not resolve \"@langchain/aws\" imported by \"langchain\". Is it installed?`)"],"names":[],"mappings":"AAAA,MAAM,IAAI,MAAM,8EAA8E;"}
