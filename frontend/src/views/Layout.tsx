@@ -19,6 +19,7 @@ const Layout = () => {
       {hasConfig &&
         <>
           <Header showHelpButton showModelSelect />
+          <HistorySidebar />
         </>
       }
       <Outlet />
