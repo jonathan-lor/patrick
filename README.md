@@ -1,5 +1,5 @@
 # tidalhack-25
-repository for tidalhack 25
+PATRICK!!!
 
 # To anyone wanting to clone this
 
