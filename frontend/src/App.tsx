@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
     const handleChange = () => {
-      setSystemTheme(mediaQuery.matches ? "dark" : "light")
+      setSystemTheme("light")
     }
 
     mediaQuery.addEventListener("change", handleChange)
