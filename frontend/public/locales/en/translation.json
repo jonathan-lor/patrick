@@ -3,7 +3,7 @@
     "title": "Patrick"
   },
   "chat": {
-    "placeholder": "Type a message...",
+    "placeholder": "Speak to Patrick...",
     "newChat": "New Chat",
     "newChatTooltip": "Start a new chat",
     "history": "History",
@@ -30,8 +30,8 @@
     "toolCalls": "🛠 Tool Calls Result from {{name}}"
   },
   "welcome": {
-    "title": "Welcome to Patrick",
-    "subtitle": "Start your AI conversation",
+    "title": "Hi, I'm Patrick.",
+    "subtitle": "",
     "startChat": "Start Chat"
   },
   "setup": {
