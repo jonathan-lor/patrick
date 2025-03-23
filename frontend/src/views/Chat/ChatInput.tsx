@@ -233,6 +233,7 @@ const ChatInput: React.FC<Props> = ({ onSendMessage, disabled, onAbort }) => {
       return
 
     onSendMessage(message, fileInputRef.current?.files || undefined)
+    console.log("message:" + message)
     setMessage("")
     resetTextareaHeight()
 

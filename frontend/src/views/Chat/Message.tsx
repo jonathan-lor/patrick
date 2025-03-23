@@ -16,6 +16,7 @@ import { useTranslation } from 'react-i18next'
 import { themeAtom } from "../../atoms/themeState";
 import Textarea from "../../components/WrappedTextarea"
 import { isChatStreamingAtom } from "../../atoms/chatState"
+import ReveilleLogo from "../../../public/Reveille_logo.webp"
 
 declare global {
   namespace JSX {
@@ -259,7 +260,8 @@ const Message = ({ messageId, text, isSent, files, isError, isLoading, onRetry, 
         {formattedText}
         {files && files.length > 0 && <FilePreview files={files} />}
         {isLoading && (
-          <div className="loading-dots">
+          <div className="">
+            <img src={ReveilleLogo} className="Reveille-Logo"/>
             <span></span>
             <span></span>
             <span></span>
